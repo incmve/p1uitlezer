@@ -1,19 +1,21 @@
 {
-  "name": "P1Uitlezer",
+  "name": "P1SmartMeter",
   "version": "0.0.1",
-  "description": "Lees de P1 poort van een slimme meter uit en schrijf naar csv",
-  "main": "p1uitlezer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Read P1 smart meter to CSV",
+  "main": "p1smartmeter.js",
+  "files": [
+    "p1smartmeter.js",
+    "README.md",
+    "p1smartmeter-config-schema.coffee",
+	"p1smartmeter.coffee"
+  ],
   "keywords": [
     "p1",
-    "slimme",
+    "smart",
     "meter",
-    "energie"
+    "energy"
   ],
-  "author": "Dennis Janse",
-  "license": "ISC",
+  "author": "incmve",
   "devDependencies": {
     "moment": "~2.8.3"
   }
